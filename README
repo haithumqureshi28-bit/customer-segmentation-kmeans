@@ -1,0 +1,90 @@
+# Customer Segmentation Using K-Means Clustering
+
+## Overview
+
+This project uses unsupervised machine learning to segment mall customers based on their spending behavior. By applying K-Means Clustering, customers are grouped into distinct segments, allowing businesses to create targeted marketing strategies. PCA or t-SNE is used to visualize the customer clusters.
+
+## Dataset
+
+* **Dataset:** Mall Customers Dataset
+* **Target:** Customer Segmentation (No target variable - Unsupervised Learning)
+
+## Project Objectives
+
+* Load and explore the dataset.
+* Perform Exploratory Data Analysis (EDA).
+* Prepare the data for clustering.
+* Apply K-Means Clustering to identify customer segments.
+* Use PCA or t-SNE to visualize the clusters.
+* Propose marketing strategies for each customer segment.
+
+## Technologies Used
+
+* Python
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+* Scikit-learn
+* PCA / t-SNE
+* Jupyter Notebook
+
+## Machine Learning Technique
+
+* K-Means Clustering
+
+## Workflow
+
+1. Load the dataset.
+2. Perform Exploratory Data Analysis (EDA).
+3. Select relevant features for clustering.
+4. Determine the optimal number of clusters using the Elbow Method.
+5. Train the K-Means clustering model.
+6. Visualize customer segments using PCA or t-SNE.
+7. Analyze each cluster.
+8. Recommend marketing strategies for every customer segment.
+
+## Results
+
+* Successfully grouped customers into meaningful clusters.
+* Visualized customer segments using dimensionality reduction.
+* Identified different spending behaviors among customers.
+* Suggested personalized marketing strategies based on customer segments.
+
+## Marketing Strategies
+
+* **High Income, High Spending:** Offer premium memberships, loyalty rewards, and exclusive promotions.
+* **High Income, Low Spending:** Encourage purchases through personalized discounts and premium product recommendations.
+* **Low Income, High Spending:** Promote affordable bundles, seasonal discounts, and reward programs.
+* **Low Income, Low Spending:** Focus on budget-friendly offers and awareness campaigns.
+* **Average Customers:** Maintain engagement through personalized recommendations and regular promotional offers.
+
+## Skills Demonstrated
+
+* Exploratory Data Analysis (EDA)
+* Unsupervised Learning
+* K-Means Clustering
+* Dimensionality Reduction (PCA / t-SNE)
+* Customer Segmentation
+* Data Visualization
+* Business Strategy Development
+
+## Repository Structure
+
+```text
+customer-segmentation-kmeans/
+│
+├── data/
+│   └── Mall_Customers.csv
+│
+├── notebooks/
+│   └── Customer_Segmentation.ipynb
+│
+├── images/
+│   ├── elbow_method.png
+│   ├── cluster_visualization.png
+│   └── pca_clusters.png
+│
+├── README.md
+└── requirements.txt
+```
